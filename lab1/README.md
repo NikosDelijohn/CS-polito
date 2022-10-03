@@ -66,7 +66,7 @@ The Babylonian method was the first algorithm used for approximating $\sqrt{S}$.
   - 3] Repeat step 2 until the desired accuracy is achieved. 
   
 It can be represented recursively as: 
-$$ x_{n+1} = \frac{1}{2} (x_n + \frac{S}{x_n} ) $$
+$$x_{n+1} = \frac{1}{2} (x_n + \frac{S}{x_n} )$$
 
 Use this algorithm to compute $\sqrt{3}$.
 
