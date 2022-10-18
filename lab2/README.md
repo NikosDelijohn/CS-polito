@@ -2,7 +2,7 @@
 
 ## Part 1 - Arithmetic Operations
 
-**[1.1]**  Write a program that stores two integers in two constants defined in code, and then displays their:-
+**[1.1]**  Write a program that stores two integers in two constants defined in code, and then displays their:
     
 1. The sum.
 2. The difference.
