@@ -2,7 +2,7 @@
 
 ## Part 1 - Comparisons, relational and Boolean operators
 
-**[1.1]** True or False. For each of the following pairs of values, perform an equality test, assign the result to a variable, and display it. Try to predict what the result of each test will be.
+**[1.1]** For each of the following pairs of values, perform an equality test, assign the result to a variable, and display it. Try to predict what the result of each test will be.
    
 1. 1, 1  
 2. 1, 1.0 
@@ -10,7 +10,7 @@
 4. '1', 1
 5. 'hello', 'Hello'
    
-**[1.2]** Identikit of the string. Write a program that reads a string and displays the appropriate messages, after checking if: 
+**[1.2]** Write a program that reads a string and displays the appropriate messages, after checking if: 
 1. it contains only letters
 2. it contains only capital letters 
 3. it contains only lowercase letters
@@ -19,7 +19,7 @@
 6. it starts with a lowercase letter
 7. it ends with a point
 
-**[1.3]** Strings and substrings. DNA sequences are like long strings consisting of only four letters: 'A', 'C', 'T' and 'G'. Write a program that takes as input a "long sequence" of DNA of twenty characters and a "short sequence" of three characters and displays: 
+**[1.3]** DNA sequences are like long strings consisting of only four letters: 'A', 'C', 'T' and 'G'. Write a program that takes as input a "long sequence" of DNA of twenty characters and a "short sequence" of three characters and displays: 
 1. if the "long sequence" contains the "short sequence".
 2. if yes, from which position of the "long sequence" the "short sequence" starts.
 3. if yes, how many times the "long sequence” contains the shorter substring.
