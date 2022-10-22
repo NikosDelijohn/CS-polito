@@ -8,7 +8,7 @@ As an example, if the input values are 1 7 2 9, the program shall visualize the 
   -  After the first input (1), the first acquired value: 1.
   - After the second input (7), the sum between the first and the second acquired values: 1 + 7 = 8.
   -   After the third input (2), the sum between the first, the second, and the third acquired values: 1 + 7 + 2 = 10.
-  -   	After the fourth input (9), the sum between the first, the second, the third, and the fourth values acquired: 1 + 7 + 2 + 9 = 19.
+  -   After the fourth input (9), the sum between the first, the second, the third, and the fourth values acquired: 1 + 7 + 2 + 9 = 19.
 -   The minimum and the maximum values among the acquired ones.
 -	How many acquired values are even, how many acquired values are odd. 
 
