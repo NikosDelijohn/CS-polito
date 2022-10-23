@@ -16,7 +16,7 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 | Laboratory | Upload Date | 
 | :--------: | :-----------:|
 | [lab1](https://github.com/NikosDelijohn/CS-polito/tree/master/lab1)          | ~~03-Oct-22~~   |
-| [lab2](https://github.com/NikosDelijohn/CS-polito/tree/master/lab2)       | 24-Oct-22   | 
+| [lab2](https://github.com/NikosDelijohn/CS-polito/tree/master/lab2)       | ~~24-Oct-22~~   | 
 | [lab3](https://github.com/NikosDelijohn/CS-polito/tree/master/lab3)       | 07-Nov-22   |
 | [lab4](https://github.com/NikosDelijohn/CS-polito/tree/master/lab4)      | 14-Nov-22   |
 | lab5       | 21-Nov-22   |
