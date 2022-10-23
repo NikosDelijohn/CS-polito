@@ -1,4 +1,4 @@
-# [\[07JCJ**\] - Computer Sciences @ PoliTO](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=07JCJLI&p_a_acc=2021&p_header=S&p_lang=IT&multi=N)
+# [\[07JCJ**\] - Computer Sciences @ PoliTO 2022-2023](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=07JCJLI&p_a_acc=2021&p_header=S&p_lang=IT&multi=N)
 
 This repository is dedicated to the laboratory sessions of the course "Computer Sciences" of Politecnico di Torino. 
 
