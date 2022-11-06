@@ -68,7 +68,7 @@ $$\frac{dy}{dt} = -Cy \ + Dxy$$
 This means that considering two time periods `n` and `n+1` the variation in the number of populations of prey (`x`) and predators (`y`) from one period to another is given by 
 
 - $x_{n+1} = x_n \times (1+A - B\times y_n)$
-- $y_{n+1} = y \times (1-C + D\times x_n)$ 
+- $y_{n+1} = y_n \times (1-C + D\times x_n)$ 
 
 Write a program that asks the user the input values of the four constants, the initial number of prey and predators’ populations, and the number of periods to be simulated. After, the program calculates and display the number of the two populations in each of the periods considered. As test input, use $A$ = 0.1, $B$ = 0.01, $C$ = 0.01 and $D$ = 0.00002, with initial populations of prey and predators of 1000 and 20, respectively.
 
