@@ -2,7 +2,7 @@
 
 ## Part 1 – Single functions
 
-**[06.1.1]** **Speech Count.** Write the function: 
+**[06.1.1]** **Vowel Count.** Write the function: 
 ```
 def count_vowels(string)
 ```
