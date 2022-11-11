@@ -63,7 +63,7 @@ Where  $\rho$ is the air density $(1.23kg/m^3)$,  $\nu$ is the velocity in $m/s$
 
 $$R=\frac{\rho L}{A}=\frac{4\rho L}{\pi d^2}$$
 
-Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the length, cross-sectional area, and wire diameter, respectively. The resistivity of copper is $(1.678 \times 10^{-8} \ohm m)$. The diameter $d$ of the wire, is commonly specified by the American Wire Gauge (`AWG`), which is an integer value. The diameter of an AWG-$n$ wire is given by the formula:
+Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the length, cross-sectional area, and wire diameter, respectively. The resistivity of copper is $(1.678 \times 10^{-8} \ohm m)$. The diameter $d$ of the wire, is commonly specified by the American Wire Gauge (`AWG`), which is an integer value. The diameter of an AWG- $n$ wire is given by the formula:
 
 $$d=0.127 \times 92 ^{\frac{36-n}{39}}mm$$
 
