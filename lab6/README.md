@@ -63,9 +63,9 @@ Where  $\rho$ is the air density $(1.23kg/m^3)$,  $\nu$ is the velocity in $m/s$
 
 $$R=\frac{\rho L}{A}=\frac{4\rho L}{\pi d^2}$$
 
-Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the length, cross-sectional area, and wire diameter, respectively. The resistivity of copper is $(1.678 x 10^{-8} \ohm m)$. The diameter $d$ of the wire, is commonly specified by the American Wire Gauge (`AWG`), which is an integer value. The diameter of an AWG-$n$ wire is given by the formula:
+Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the length, cross-sectional area, and wire diameter, respectively. The resistivity of copper is $(1.678 \times 10^{-8} \ohm m)$. The diameter $d$ of the wire, is commonly specified by the American Wire Gauge (`AWG`), which is an integer value. The diameter of an AWG-$n$ wire is given by the formula:
 
-$$d=0.127 x 92 ^{\frac{36-n}{39}}mm$$
+$$d=0.127 \times 92 ^{\frac{36-n}{39}}mm$$
 
 Write a function
 ```
@@ -77,7 +77,7 @@ def copper_wire_resistance(length, wire_gauge)
 ```
 that accepts the length and gauge of a piece of copper wire and returns its resistance.
 
-The resistivity of aluminum is  $(2.82 x 10^{-8} \ohm m)$. Write a third function
+The resistivity of aluminum is  $(2.82 \times 10^{-8} \ohm m)$. Write a third function
 ```
 def aluminum_wire_resistance(length, wire_gauge)
 ```
