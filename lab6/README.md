@@ -3,23 +3,27 @@
 ## Part 1 – Single functions
 
 **[06.1.1]** **Speech Count.** Write the function: 
-- `def count_vowels(string)`
+```def count_vowels(string)
+```
 Returns the number of vowels in the string. Vowels are the letters `a`, `e`, `i`, `o`, and `u`;  as well as their respective capitalized versions. [P5.6]
 
 **[06.1.2]** Word Count. Write the function: 
-- `def count_words(string)` 
+```
+def count_words(string)
+```
 Returns the number of words in the string. Words are sequences of characters separated by spaces (assume that between two consecutive words, there is exactly one space). For example, `count_words("Mary had a little lamb")` returns `5`. 
 
 How could the exercise be extended so that strings, where there are multiple spaces between words, are correctly treated? [P5.7]
 
 **[06.1.3]** **Geometric solids.** Write functions:
-- `def sphere_volume(r)`
-- `def sphere_surface(r)`
-- `def cylinder_volume(r, h)`
-- `def cylinder_surface(r, h)`
-- `def cone_volume(r, h)`
-- `def cone_surface(r, h)`
-
+ ```
+ def sphere_volume(r)
+ def sphere_surface(r)
+ def cylinder_volume(r, h)
+ def cylinder_surface(r, h)
+ def cone_volume(r, h)
+ def cone_surface(r, h)
+```
 To calculate the volume and surface area of a sphere of radius `r`, `a` cylinder with a circular base of radius `r` and height `h` and `a` cone with a circular base with radius `r` and height `h`. Then write a program that asks the user to enter the values `r` and `h`, then the program calls the six functions and display the output results. [P5.9]
 
 **[06.1.4]** **Bank Balance.** Write a function that calculates the balance of a bank account by crediting interest annually. The function receives as parameters: the number of years, the initial balance, and the annual interest rate. [P5.22]
