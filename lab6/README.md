@@ -55,17 +55,17 @@ Until s is empty
 
 **[06.2.3]** **Aerodynamic drag.** The drag force on a car is given by:
 
-$F_{D}=\frac{1}{2}\rho \nu^2 A C_{D} $
+$$F_{D}=\frac{1}{2}\rho \nu^2 A C_{D} $$
 
 Where  $\rho$ is the air density $(1.23kg/m^3)$,  $\nu$ is the velocity in $m/s$,  $A$ is the projected area of the car $(2.5m^2)$ and $C_{D}$ is the drag coefficient $(0.2)$. The amount of power in watts needed to overcome the resistance force is $P=F_{D}\nu$, and the equivalent power in horsepower is $H_p=P/745.7$. Write a program that receives the car's speed and calculates the power in watts and horsepower needed to overcome the resulting resistance force. [P5.36]
 
 **[06.2.4]** **Electrical wire.** The electric wire is a cylindrical conductor covered with an insulating material. The resistance of a wire is given by the formula:
 
-$R=\frac{\rho L}{A}=\frac{4\rho L}{\pi d^2}$
+$$R=\frac{\rho L}{A}=\frac{4\rho L}{\pi d^2}$$
 
 Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the length, cross-sectional area, and wire diameter, respectively. The resistivity of copper is $(1.678 x 10^{-8} \ohm m)$. The diameter $d$ of the wire, is commonly specified by the American Wire Gauge (`AWG`), which is an integer value. The diameter of an AWG-$n$ wire is given by the formula:
 
-$d=0.127 x 92 ^{\frac{36-n}{39}}mm$
+$$d=0.127 x 92 ^{\frac{36-n}{39}}mm$$
 
 Write a function
 `def diameter(wire_gauge)`
