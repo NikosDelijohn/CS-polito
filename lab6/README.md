@@ -68,10 +68,17 @@ Where  $\rho$ is the resistivity of the conductor $L$ and $A$, and $d$ are the l
 $$d=0.127 x 92 ^{\frac{36-n}{39}}mm$$
 
 Write a function
-`def diameter(wire_gauge)`
+```
+def diameter(wire_gauge)
+```
 that accepts the wire gauge and returns the corresponding diameter. Write another function
-`def copper_wire_resistance(length, wire_gauge)`
+```
+def copper_wire_resistance(length, wire_gauge)
+```
 that accepts the length and gauge of a piece of copper wire and returns its resistance.
+
 The resistivity of aluminum is  $(2.82 x 10^{-8} \ohm m)$. Write a third function
-`def aluminum_wire_resistance(length, wire_gauge)`
+```
+def aluminum_wire_resistance(length, wire_gauge)
+```
 that accepts the length and gauge of a piece of aluminum wire and returns its resistance. Then write a program to test these functions. [P5.35]
