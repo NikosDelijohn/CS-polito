@@ -31,7 +31,7 @@ Such functions are devoted to calculate the volume and surface area of a sphere 
 
 ## Part 2 – Algorithms that make use of functions
 
-**[6.2.1]** **NGOs.** A non-governmental organization needs a program to calculate the share of financial benefit to be allocated to each family in need of assistance. The formula is as follows: 
+**[06.2.1]** **NGOs.** A non-governmental organization needs a program to calculate the share of financial benefit to be allocated to each family in need of assistance. The formula is as follows: 
    - I. If the family's annual income is between `$30000` and `$40000` and the family has at least `3` children, the subsidy is `$1000` for each child;  
    - II. If the family's annual income is between `$20000` and  `$30000` and the family has at least `2` children, the subsidy is `$1500` for each child;  
    - III. If the family's annual income is less than `$20,000`, the subsidy is `$2,000` for each child. 
