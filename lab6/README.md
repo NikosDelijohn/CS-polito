@@ -25,7 +25,7 @@ How could the exercise be extended so that strings, where there are multiple spa
  def cone_volume(r, h)
  def cone_surface(r, h)
 ```
-Such functions are devoted to calculate the volume and surface area of a sphere of radius `r`, `a` cylinder with a circular base of radius `r` and height `h` and `a` cone with a circular base with radius `r` and height `h`. Then write a program that asks the user to enter the values `r` and `h`, then the program calls the six functions and display the output results. [P5.9]
+Such functions are devoted to calculate the volume and surface area of a sphere of radius `r`, a cylinder with a circular base of radius `r` and height `h`, and a cone with a circular base with radius `r` and height `h`. Then write a program that asks the user to enter the values `r` and `h`, then the program calls the six functions and display the output results. [P5.9]
 
 **[06.1.4]** **Bank Balance.** Write a function that calculates the balance of a bank account by crediting interest annually. The function receives as parameters: the number of years, the initial balance, and the annual interest rate. [P5.22]
 
