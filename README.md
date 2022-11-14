@@ -45,7 +45,7 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
         main()
     ```
 5. In case of handling exceptions, be specific and as acurate as  posible with your `try except` blocks. Do not engulf huge code segments but only the point of failure. For example:
-   - :heavy_check_mark: do :heavy_check_mark: :
+    - :heavy_check_mark: do :heavy_check_mark: :
    ```
     try:
         with open("numbers.txt") as infile:
@@ -63,7 +63,7 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
     exit
 
    ```
-   - :x: don't :x: :
+    - :x: don't :x: :
     ```
     try:
         with open("numbers.txt") as infile:
@@ -89,7 +89,45 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 7. 
    - Q: What is the very first line I see in some python3 scripts `#!/usr/bin/python3` ?
    - A: Its called [shebang](https://stackoverflow.com/questions/7670303/purpose-of-usr-bin-python3-shebang)
+
+8. It is a good practice to have a single point of exit in functions i.e., use a single `return` statement when this is possible and avoid having multiple cases. For example: 
+    - :heavy_check_mark: do :heavy_check_mark: :
+   ```
+   def my_function(arg1,arg2):
+       if (condition1):
+           # handle this case
+       elif (condition2):
+           # handle this case as well
+       else:
+           # handle that one too and then...
+           
+      return # once
+   ```
+    - :x: don't :x: :
+  
+    ```
+    def my_function(arg1,arg2):
+        if (condition1):
+            return this
+        elif (condition2):
+            return that
+        else:
+            return other
+    ```
+ 9. When coding functions do use `typing` support for arguments and return statements. For example 
+    ```
+    def is_empty(a_list : list) -> bool: 
+        return len(a_list) == 0
+    ```
+    - For arguments use the following syntax `arg : type`
+    - For the return type use the following syntax ` -> : type`  
+
+   
+
+
 ## Auxiliary Information
 - Advise prof. Squillero's [repository](https://github.com/squillero/computer-sciences/tree/master/Python) for extra information.
 
 - Bookmark https://docs.python.org/3/ as your main `goto` place for finding useful information about the standard library with convenient examples and use cases.
+
+- Check [PEP 8 -- Style Guide](https://peps.python.org/pep-0008/) for coding conventions for the Python code comprising the standard library in the main Python distribution.
