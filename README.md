@@ -22,7 +22,7 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 | [lab5](https://github.com/NikosDelijohn/CS-polito/tree/master/lab5)       | ~~21-Nov-22~~   |
 | [lab6](https://github.com/NikosDelijohn/CS-polito/tree/master/lab6)       | 28-Nov-22   |
 | [lab7](https://github.com/NikosDelijohn/CS-polito/tree/master/lab7)       | 05-Dec-22   |
-| lab8       | 12-Dec-22   |
+| [lab8](https://github.com/NikosDelijohn/CS-polito/tree/master/lab8)       | 12-Dec-22   |
 | lab9       | 19-Dec-22   |
 | lab10      | 09-Dec-22   |
 | lab11      | _TBA_  :construction:       |
@@ -131,3 +131,4 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 - Bookmark https://docs.python.org/3/ as your main `goto` place for finding useful information about the standard library with convenient examples and use cases.
 
 - Check [PEP 8 -- Style Guide](https://peps.python.org/pep-0008/) for coding conventions for the Python code comprising the standard library in the main Python distribution.
+- Check out [Advent of Code](https://adventofcode.com) by Eric Wastl. 
