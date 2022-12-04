@@ -57,4 +57,6 @@ def convert_digit(r):
 
 
 # Call the main function.
-main()
+if __name__== "__main__":
+    main()
+

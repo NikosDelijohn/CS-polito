@@ -22,5 +22,5 @@ def count_vowels(string):
     return count
 
 
-# Call the main function.
-main()
+if __name__ == "__main__":
+    main()

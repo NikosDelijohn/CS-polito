@@ -52,4 +52,5 @@ def count_words_using_split(string):
 
 
 # Call the main function.
-main()
+if __name__== "__main__":
+    main()
