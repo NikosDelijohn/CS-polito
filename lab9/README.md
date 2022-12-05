@@ -103,7 +103,6 @@ in the table on the right (this table should not be an output of your program).
 
 |  |  |  |  |  |  |  |  |  | 
 |--|--|--|--|--|--|--|--|--| 
-|  |  |  |  |  |  |  |  |  | 
 |1 |2 |3 |4 | \| |⨀ |→  |→  |↴  |
 |12|13|14|5 | \| | ↱ | →  |↴  | ↓ |
 |11|16|15|6 | \||↑  | ⨂ |↵  | ↓ |
