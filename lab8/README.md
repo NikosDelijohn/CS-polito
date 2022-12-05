@@ -5,7 +5,7 @@
 **[1.1]** **Out-of-range.**
 Write a program that contains an out-of-range error. What happens if you run the program?
 
-**[1.2]** **Buffe.r**
+**[1.2]** **Buffer.**
 Write the pseudocode for an algorithm that, given a list of defined length, moves the
 elements "forward" one position (thus increasing their index by one unit), and moves the element at
 the last position to the first position. For example, the list `1 7 9 3 0 4`, after this operation,
