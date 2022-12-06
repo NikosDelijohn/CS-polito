@@ -15,15 +15,15 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 
 | Laboratory | Upload Date | 
 | :--------: | :-----------:|
-| [lab1](https://github.com/NikosDelijohn/CS-polito/tree/master/lab1)          | ~~03-Oct-22~~   |
-| [lab2](https://github.com/NikosDelijohn/CS-polito/tree/master/lab2)       | ~~24-Oct-22~~   | 
-| [lab3](https://github.com/NikosDelijohn/CS-polito/tree/master/lab3)       | ~~07-Nov-22~~   |
-| [lab4](https://github.com/NikosDelijohn/CS-polito/tree/master/lab4)      | ~~14-Nov-22~~   |
-| [lab5](https://github.com/NikosDelijohn/CS-polito/tree/master/lab5)       | ~~21-Nov-22~~   |
-| [lab6](https://github.com/NikosDelijohn/CS-polito/tree/master/lab6)       | ~~28-Nov-22~~   |
-| [lab7](https://github.com/NikosDelijohn/CS-polito/tree/master/lab7)       | ~~05-Dec-22~~   |
-| [lab8](https://github.com/NikosDelijohn/CS-polito/tree/master/lab8)       | 12-Dec-22   |
-| [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab9)       | 19-Dec-22   |
+| [lab1](https://github.com/NikosDelijohn/CS-polito/tree/master/lab01)          | ~~03-Oct-22~~   |
+| [lab2](https://github.com/NikosDelijohn/CS-polito/tree/master/lab02)       | ~~24-Oct-22~~   | 
+| [lab3](https://github.com/NikosDelijohn/CS-polito/tree/master/lab03)       | ~~07-Nov-22~~   |
+| [lab4](https://github.com/NikosDelijohn/CS-polito/tree/master/lab04)      | ~~14-Nov-22~~   |
+| [lab5](https://github.com/NikosDelijohn/CS-polito/tree/master/lab05)       | ~~21-Nov-22~~   |
+| [lab6](https://github.com/NikosDelijohn/CS-polito/tree/master/lab06)       | ~~28-Nov-22~~   |
+| [lab7](https://github.com/NikosDelijohn/CS-polito/tree/master/lab07)       | ~~05-Dec-22~~   |
+| [lab8](https://github.com/NikosDelijohn/CS-polito/tree/master/lab08)       | 12-Dec-22   |
+| [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab09)       | 19-Dec-22   |
 | lab10      | 09-Dec-22   |
 | lab11      | _TBA_  :construction:       |
 | lab12      | _TBA_    :construction:     |
