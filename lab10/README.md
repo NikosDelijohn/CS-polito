@@ -164,17 +164,13 @@ transformed to 'PLAYFIR', as the keyword, the following pattern is obtained.
 Starting from this table, to encrypt a pair of letters, e.g., `'AM'`, you locate the portion of the table 
 that has `'A'` and `'M'` at two ends:
 
-<div class="cipher">
-
 |  |  |  |  |  |
 | -- | -- | -- | -- | -- |
-| **P** | **L** | ***A*** | ***Y*** | ***F*** |
-| **I** | **R** | ***B*** | ***C*** | ***D*** |
-| **E** | **G** | ***H*** | ***K*** | ***M*** |
+| **P** | **L** | <span id="color">***A***</span> | <span id="color">***Y***</span> | <span id="color">***F***</span> |
+| **I** | **R** | <span id="color">***B***</span> | <span id="color">***C***</span> | <span id="color">***D***</span> |
+| **E** | **G** | <span id="color">***H***</span> | <span id="color">***K***</span> | <span id="color">***M***</span> |
 | **N** | **O** | **Q** | **S** | **T** |
 | **U** | **V** | **W** | **X** | **Z** |
-
-</div>
 
 The encoding of the pair `'AM'` is done by finding the values at the two remaining ends of the 
 portion of the table, in this case, `'FH'`. If the two letters of the pair are on the same row or on the 
@@ -220,14 +216,6 @@ example, a bond length of `0.12` must return both triple bond `C||C` and bond en
 and single bond `N|O` and bond energy `250 kJ/mol`. 
 
 <style>
-.cipher tbody tr:first-child td:nth-child(3), 
-.cipher tbody tr:first-child td:nth-child(4), 
-.cipher tbody tr:first-child td:nth-child(5),
-.cipher tbody tr:nth-child(2) td:nth-child(3),
-.cipher tbody tr:nth-child(2) td:nth-child(4),
-.cipher tbody tr:nth-child(2) td:nth-child(5),
-.cipher tbody tr:nth-child(3) td:nth-child(3),
-.cipher tbody tr:nth-child(3) td:nth-child(4),
-.cipher tbody tr:nth-child(3) td:nth-child(5),
-{background: grey;}
+#color
+{background: #ADD8E6;}
 </style>
