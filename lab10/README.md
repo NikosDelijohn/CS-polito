@@ -166,9 +166,9 @@ that has `'A'` and `'M'` at two ends:
 
 |  |  |  |  |  |
 | -- | -- | -- | -- | -- |
-| **P** | **L** | <span id="color">***A***</span> | <span id="color">***Y***</span> | <span id="color">***F***</span> |
-| **I** | **R** | <span id="color">***B***</span> | <span id="color">***C***</span> | <span id="color">***D***</span> |
-| **E** | **G** | <span id="color">***H***</span> | <span id="color">***K***</span> | <span id="color">***M***</span> |
+| **P** | **L** | :exclamation:***A***:exclamation: | :exclamation:***Y***:exclamation: | :exclamation:***F***:exclamation: |
+| **I** | **R** | :exclamation:***B***:exclamation: | :exclamation:***C***:exclamation: | :exclamation:***D***:exclamation:|
+| **E** | **G** | :exclamation:***H***:exclamation: | :exclamation:***K***:exclamation: | :exclamation:***M***:exclamation: |
 | **N** | **O** | **Q** | **S** | **T** |
 | **U** | **V** | **W** | **X** | **Z** |
 
@@ -214,8 +214,3 @@ columns in the file. If the input data has a match to multiple rows in the table
 return data from the other two columns to all rows that have a match to the input value. For 
 example, a bond length of `0.12` must return both triple bond `C||C` and bond energy `890 kJ/mol`, 
 and single bond `N|O` and bond energy `250 kJ/mol`. 
-
-<style>
-#color
-{background: #ADD8E6;}
-</style>
