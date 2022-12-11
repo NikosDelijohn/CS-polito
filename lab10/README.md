@@ -175,7 +175,7 @@ that has `'A'` and `'M'` at two ends:
 The encoding of the pair `'AM'` is done by finding the values at the two remaining ends of the 
 portion of the table, in this case, `'FH'`. If the two letters of the pair are on the same row or on the 
 same column, such as, the pair `'GO'`, the encoding is done by swapping the letters with each other, 
-obtaining, in this case, `'OG`'. Decryption follows the same rules. Write a program that encrypts or 
+obtaining, in this case, `'OG'`. Decryption follows the same rules. Write a program that encrypts or 
 decrypts a text file according to the Playfair cipher scheme.
 
 **[2.4]** **Covalent bonds.** Suppose a file contains the energies and bond lengths for covalent bonds, 
