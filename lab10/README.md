@@ -140,8 +140,8 @@ Student ID: 16753
 
 CSC2 B+
 MTH121 C+
-CHN1 A PHY50 
-A-
+CHN1 A 
+PHY50 A-
 ```
 
 **[2.3]** **Playfair cipher.** It is possible to decipher a text by simple analysis of the frequency of 
