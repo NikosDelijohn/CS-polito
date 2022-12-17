@@ -1,4 +1,6 @@
-﻿## **Part 1 – Complex data structures**
+# Computer Science Laboratory \#11
+
+## **Part 1 – Complex data structures**
 
 **1.1 Counting words.** Write a program counting all occurrences of a word in a text file whose name is obtained as an input. Assume the file contains only alphabetical characters or white spaces.  The program shall output all the words in the file, with the number of occurrences near each word.
 
