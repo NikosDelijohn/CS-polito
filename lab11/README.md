@@ -4,7 +4,7 @@
 
 **1.1 Counting words.** Write a program counting all occurrences of a word in a text file whose name is obtained as an input. Assume the file contains only alphabetical characters or white spaces.  The program shall output all the words in the file, with the number of occurrences near each word.
 
-**1.2 Most frequent words.** Extend the program of exercise 1.1 so that it shows the 5 most frequent words in the file, not including “the”, prepositions and conjunctions. 
+**1.2 Most frequent words.** Extend the program of exercise 1.1 so that it shows the 5 most frequent words in the file, not including “the”, “a”, “an”, prepositions and conjunctions. 
 
 **1.3 Two strings.** Write a program taking as input two strings, then visualizing (with no repetitions): 
 
