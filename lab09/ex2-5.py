@@ -1,11 +1,5 @@
-# Exercise 09.2.5
-# Pet Shop
-
-#  Implement the discount for a pet shop.
-
 # Define constant variables.
 DISCOUNT_FRACTION = 0.20
-
 
 def main():
     prices = []
@@ -52,4 +46,6 @@ def discount(prices, is_pets, n_items):
 
 
 # Call the main function.
-main()
+if __name__ == "__main__":
+
+    main()

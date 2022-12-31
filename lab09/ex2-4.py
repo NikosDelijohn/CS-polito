@@ -1,9 +1,5 @@
-# Exercise 09.2.4
-# Spiral
-
 # Create a NxN spiral of integer numbers
 from pprint import pprint
-
 
 def main():
     n = int(input('Size of the spiral: '))
@@ -49,5 +45,6 @@ def build_ring(mat, ring, start):
 
     return start
 
+if __name__ == "__main__":
 
-main()
+    main()

@@ -1,8 +1,3 @@
-# Exercise 09.2.3
-# The best client
-
-#  Display the best customer of the day.
-
 def main():
     sales = []
     names = []
@@ -43,4 +38,6 @@ def name_of_best_customer(sales, customers):
 
 
 # Call the main function.
-main()
+if __name__ == "__main__":
+
+    main()

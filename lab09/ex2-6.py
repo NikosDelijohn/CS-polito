@@ -1,14 +1,7 @@
-# Exercise 09.2.6
-# Flooding
-
-#  Read a height map and display which portions of it are covered in water
-#  given a flood height.
-
 # Define constant variables.
 WIDTH = 10
 HEIGHT = 410
 NUM_LEVELS = 10
-
 
 def main():
     heights = []
@@ -57,4 +50,6 @@ def flood_map(heights, water_level):
 
 
 # Call the main function.
-main()
+if __name__ == "__main__":
+
+    main()

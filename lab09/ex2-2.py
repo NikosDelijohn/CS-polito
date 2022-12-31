@@ -1,6 +1,3 @@
-# Exercise 09.2.2
-# Concatenated Words
-
 def main():
     stop = False
     while not stop:
@@ -31,5 +28,6 @@ def partita():
             last = new
             words.append(new)
 
+if __name__ == "__main__":
 
-main()
+    main()
