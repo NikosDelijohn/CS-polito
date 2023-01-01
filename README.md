@@ -23,9 +23,9 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 | [lab6](https://github.com/NikosDelijohn/CS-polito/tree/master/lab06)       | ~~28-Nov-22~~   |
 | [lab7](https://github.com/NikosDelijohn/CS-polito/tree/master/lab07)       | ~~05-Dec-22~~   |
 | [lab8](https://github.com/NikosDelijohn/CS-polito/tree/master/lab08)       | ~~12-Dec-22~~   |
-| [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab09)       | 19-Dec-22       |
-| [lab10](https://github.com/NikosDelijohn/CS-polito/tree/master/lab10)      |  _TBA_  :construction:   |
-| [lab11](https://github.com/NikosDelijohn/CS-polito/tree/master/lab11)      | _TBA_  :construction:       |
+| [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab09)       | ~~19-Dec-22~~   |
+| [lab10](https://github.com/NikosDelijohn/CS-polito/tree/master/lab10)      | ~~01-Jan-23~~   |
+| [lab11](https://github.com/NikosDelijohn/CS-polito/tree/master/lab11)      | _TBA_  :construction: |
 | lab12      | _TBA_    :construction:     |
 
 ### Some `Python3` tips 
