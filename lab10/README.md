@@ -41,13 +41,10 @@ Mary had a little lamb
 **[1.3]** **Ring search.**
 Write a program that searches for a given word in the contents of a group of 
 files. The program must ask the user for input: 
-I. A list of **file names** on a single line, separated by commas; 
-II. A word to search. 
-File names must be stored in a list, while the word to be searched must be stored in a variable. The 
-program must display all lines that contain the word, even as a substring of other words, without 
-distinguishing between uppercase and lowercase letters. Each displayed line must be preceded by 
-the name of the file in which it is located. For example, if the word to be searched is `'ring'`, and the 
-list contains the files: 
+1. A list of **file names** on a single line, separated by commas; 
+1. A word to search. 
+
+File names must be stored in a list, while the word to be searched must be stored in a variable. The program must display all lines that contain the word, even as a substring of other words, without distinguishing between uppercase and lowercase letters. Each displayed line must be preceded by the name of the file in which it is located. For example, if the word to be searched is `'ring'`, and the list contains the files: 
 
 ```
 book.txt, address.txt, homework.py
@@ -65,10 +62,12 @@ homework.py: string = "text"
 
 **[1.4]** **Hotel.**  The administrative manager of a hotel records sales in a text file. Each line contains the 
 following `4` information, separated by semicolon characters (`';'`): 
-I. the client's name; 
-II. the service sold; 
-III. the amount paid; 
-IV. the date of the event. 
+1. the client's name; 
+2. the service sold; 
+3. the amount paid; 
+4. the date of the event.
+
+
 The services sold may be, for example, a dinner, a conference, or lodging. The proper format for this 
 file is for it to contain 4 fields per line, and for the amount paid to contain values of type `float`. 
 Write a program that reads this text file, and displays the total amount for **each type** of service, 
