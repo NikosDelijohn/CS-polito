@@ -26,7 +26,6 @@ With that said, each set of solutions will be uploaded **2 weeks** after the lab
 | [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab09)       | ~~19-Dec-22~~   |
 | [lab10](https://github.com/NikosDelijohn/CS-polito/tree/master/lab10)      | ~~01-Jan-23~~   |
 | [lab11](https://github.com/NikosDelijohn/CS-polito/tree/master/lab11)      | _TBA_  :construction: |
-| lab12      | _TBA_    :construction:     |
 
 ### Some `Python3` tips 
 1. Don't be afraid to use representative variable names! Remember that the readability of your code plays a key role to its understanding by other readers or even by you when you try to debug it. Use `nouns` for variables and for functions use `full sentences`. For example: `minimum = find_minimum(integer_list)`. For functions specifically, if they return a `boolean` value it is a good practice to have the `has_` or `is_` as a prefix to their name (e.g., `if is_prime(number):`) 
