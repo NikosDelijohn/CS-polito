@@ -4,6 +4,7 @@
 
 # Read the file name from the user and open the file.
 filename = input("Enter the name of a file: ")
+
 def main():
 
     filename = input("Enter the name of a file: ")
@@ -22,6 +23,7 @@ def main():
                         counts[word] = counts[word] + 1
                     else:
                         counts[word] = 1
+                        
     except FileNotFoundError:
 
         exit(f"Tried to open file \"{filename}\". It's not found!")

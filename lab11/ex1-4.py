@@ -1,27 +1,29 @@
 #  Implement a censor that replaces "bad" words with asterisks.
 
 # Read the bad words into a set.
+
+FILENAMES_PREFIX = "input_files/ex1-4"
+
 def main():
 
     try:
 
-        with open("bad_words.txt", "r", encoding='utf-8') as bad_file:
+        with open(f"{FILENAMES_PREFIX}/bad_words.txt", "r", encoding='utf-8') as bad_file:
             bad_words = set()
             for word in bad_file:
                 word = word.rstrip()
                 bad_words.add(word)
+
     except FileNotFoundError:
 
-        exit(f"Tried to open file bad_words.txt. It's not found!")
+        exit(f"Tried to open file {FILENAMES_PREFIX}/bad_words.txt. It's not found!")
 
     # Read the input file and store it in a set.
     input_name = input("Enter the input file name: ")
     output_name = input("Enter the output file name: ")
 
     try:
-        with open(input_name, "r", encoding='utf-8') as inf, open(output_name, "w", encoding='utf-8') as outf:
-
-
+        with open(f"{FILENAMES_PREFIX}/{input_name}", "r", encoding='utf-8') as inf, open(f"{FILENAMES_PREFIX}/{output_name}", "w", encoding='utf-8') as outf:
             # Censor the input file, writing the result to the output file.
             for line in inf:
                 for bad_word in bad_words:
@@ -38,8 +40,8 @@ def main():
 
                 # Write the line to the output file.
                 outf.write(line)
-    except FileNotFoundError:
-        exit(f"Tried to open file \"{input_name}\" and \"{output_name}\". It's not found!")
+    except OSError:
+        exit(f"Tried to open file \"{input_name}\" and \"{output_name}\". Something went wrong there.")
 
 
 if __name__ == "__main__":

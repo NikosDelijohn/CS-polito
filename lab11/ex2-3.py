@@ -1,11 +1,12 @@
 #  Process a maze file, identifying all of the neighbors of each location.
 
+PATH_TO_FILE = "input_files/ex2-3/maze.txt"
 # Open the maze file and read it.
 def main():
 
     try:
 
-        with open("maze.txt", "r", encoding='utf-8') as inf:
+        with open(PATH_TO_FILE, "r", encoding='utf-8') as inf:
             maze = []
             for line in inf:
                 maze.append(line.rstrip())

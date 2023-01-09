@@ -2,12 +2,14 @@
 
 # Read the file name from the user and open the file.
 
+PATH_TO_FILE = "input_file/ex1-1/input.txt"
+
 def main():
 
     filename = input("Enter the name of a file: ")
     try:
 
-        with open(filename, "r", encoding='utf-8') as inf:
+        with open(PATH_TO_FILE, "r", encoding='utf-8') as inf:
             # Create a new empty dictionary.
             counts = {}
 
@@ -19,13 +21,14 @@ def main():
                         counts[word] = counts[word] + 1
                     else:
                         counts[word] = 1
-            # Display the counts.
-            for word in sorted(counts):
-                print(f"{word}: {counts[word]}")
 
     except FileNotFoundError:
 
         exit(f"Tried to open file \"{filename}\". It's not found!")
+
+    # Display the counts.
+    for word in sorted(counts):
+        print(f"{word}: {counts[word]}")
 
 if __name__ == "__main__":
 

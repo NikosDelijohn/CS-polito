@@ -1,10 +1,13 @@
 import csv
 
+PATH_TO_FILE = "input_files/ex2-2/genetic_code.csv"
+
 # global sets of special codons, they will be filled while reading the file
 START_CODONS = set()
 STOP_CODONS = set()
 
 def read_genetic_code(file_name):
+
     code = {}
 
     try:
@@ -27,7 +30,7 @@ def read_genetic_code(file_name):
                         STOP_CODONS.add(codon)
         return code
     except OSError as ex:
-        exit('Errore nella lettura del file\n' + str(ex))
+        exit(f"Error openning file {ex}")
 
 
 def decode(code, dna):
@@ -43,9 +46,6 @@ def decode(code, dna):
         print("START codon not found")
         return
 
-    # print(f'DNA starts at position {start}')
-
-
     while start < len(dna) - 2 and dna[start:start + 3] not in STOP_CODONS:
         aminoacid = code[dna[start:start + 3]]
         protein = protein + aminoacid
@@ -59,8 +59,7 @@ def decode(code, dna):
 
 
 def main():
-    genetic_code = read_genetic_code('codice_genetico.csv')
-    # print(genetic_code)
+    genetic_code = read_genetic_code(PATH_TO_FILE)
 
     dna = input("Insert a DNA fragment: ").upper()
 
