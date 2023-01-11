@@ -11,23 +11,6 @@ Also, these solutions represent the author's way to approach the problem, which 
 
 With that said, each set of solutions will be uploaded **2 weeks** after the lab delivery. For example, the solutions for lab 1 will be uploaded during the delivery of lab3, the solutions for lab2 during the delivery of lab4 and so on.
 
-### Upload Schedule 
-
-| Laboratory | Upload Date | 
-| :--------: | :-----------:|
-| [lab1](https://github.com/NikosDelijohn/CS-polito/tree/master/lab01)       | ~~03-Oct-22~~   |
-| [lab2](https://github.com/NikosDelijohn/CS-polito/tree/master/lab02)       | ~~24-Oct-22~~   | 
-| [lab3](https://github.com/NikosDelijohn/CS-polito/tree/master/lab03)       | ~~07-Nov-22~~   |
-| [lab4](https://github.com/NikosDelijohn/CS-polito/tree/master/lab04)       | ~~14-Nov-22~~   |
-| [lab5](https://github.com/NikosDelijohn/CS-polito/tree/master/lab05)       | ~~21-Nov-22~~   |
-| [lab6](https://github.com/NikosDelijohn/CS-polito/tree/master/lab06)       | ~~28-Nov-22~~   |
-| [lab7](https://github.com/NikosDelijohn/CS-polito/tree/master/lab07)       | ~~05-Dec-22~~   |
-| [lab8](https://github.com/NikosDelijohn/CS-polito/tree/master/lab08)       | ~~12-Dec-22~~   |
-| [lab9](https://github.com/NikosDelijohn/CS-polito/tree/master/lab09)       | ~~19-Dec-22~~   |
-| [lab10](https://github.com/NikosDelijohn/CS-polito/tree/master/lab10)      | ~~01-Jan-23~~   |
-| [lab11](https://github.com/NikosDelijohn/CS-polito/tree/master/lab11)      | ~~09-Jan-23~~   |
-| [lab12](https://github.com/NikosDelijohn/CS-polito/tree/master/lab12)      | ~~09-Jan-23~~   |
-
 ### Some `Python3` tips 
 1. Don't be afraid to use representative variable names! Remember that the readability of your code plays a key role to its understanding by other readers or even by you when you try to debug it. Use `nouns` for variables and for functions use `full sentences`. For example: `minimum = find_minimum(integer_list)`. For functions specifically, if they return a `boolean` value it is a good practice to have the `has_` or `is_` as a prefix to their name (e.g., `if is_prime(number):`) 
 
